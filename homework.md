@@ -9,4 +9,7 @@
 -lesson:- order of the routes matters a lot
 -episode-04:- postman
 -write logic to handle GET , POST , PUT , PATCH , DELETE API calls
--
+-in routing explored regex and use of ? , * , +, ()
+-in routes ":" means dynamic routes
+-in routing req.params req.query
+eg:- /user/:101
