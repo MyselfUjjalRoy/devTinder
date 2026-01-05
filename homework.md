@@ -13,3 +13,11 @@
 -in routes ":" means dynamic routes
 -in routing req.params req.query
 eg:- /user/:101
+
+-S02E05:
+  -Handling multiple routes
+  -difference between app.use() and app.all()
+  -what is middleware ? why do we need it??
+  
+
+-
