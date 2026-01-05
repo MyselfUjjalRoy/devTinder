@@ -18,6 +18,6 @@ eg:- /user/:101
   -Handling multiple routes
   -difference between app.use() and app.all()
   -what is middleware ? why do we need it??
-  
+  -error handling
 
 -
