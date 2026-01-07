@@ -20,4 +20,13 @@ eg:- /user/:101
   -what is middleware ? why do we need it??
   -error handling
 
+-S02E06
+  -create a free cluster
+  -install mongoose library
+  -first connect DB then start the server - it is the best way , using the connection url
+
+  -create a user Schema , then convert  it to User model , (always the model name in capital letter)
+  -created POST /signup API to add data to databse
+  -Push some documents using API calls from postman(I used thunder client)
+  -Note :- whenever you do some db operations do it inside try catch block
 -
