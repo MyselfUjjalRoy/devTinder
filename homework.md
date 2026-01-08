@@ -40,3 +40,9 @@ eg:- /user/:101
 -Note :- suppose I pass any data through body in my api and i that field is not present in the schema then it will ignore that field and not update nor store the data
 
 -S02E08
+ -explored schema type options from the documentation
+ -added required , unique , lowercase , min , minlength , trim
+ -Added default
+ - Created a custom validate function for gender
+ 
+
