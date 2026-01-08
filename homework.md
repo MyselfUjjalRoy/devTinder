@@ -40,11 +40,16 @@ eg:- /user/:101
 -Note :- suppose I pass any data through body in my api and i that field is not present in the schema then it will ignore that field and not update nor store the data
 
 -S02E08
- -explored schema type options from the documentation
- -added required , unique , lowercase , min , minlength , trim
- -Added default
- - Created a custom validate function for gender
- -Added API level validations on Patch request & SignUp POSt API
- -Data Sanitization :- Add API validation for each field- so that my api don't get malicious data
- -
+-explored schema type options from the documentation
+-added required , unique , lowercase , min , minlength , trim
+-Added default
 
+- Created a custom validate function for gender
+  -Added API level validations on Patch request & SignUp POSt API
+  -Data Sanitization :- Add API validation for each field- so that my api don't get malicious data
+  -Note:- npm validator library for validating email
+  for that , at first do - npm i validator
+  -explore validator library function and use validtor for password , email , phone number , photourl etc.
+
+-S02E09
+-
