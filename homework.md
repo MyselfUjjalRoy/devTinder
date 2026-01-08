@@ -50,6 +50,6 @@ eg:- /user/:101
   -Note:- npm validator library for validating email
   for that , at first do - npm i validator
   -explore validator library function and use validtor for password , email , phone number , photourl etc.
+  -Note :- NEVER TRUST req.body
 
--S02E09
--
+
