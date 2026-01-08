@@ -44,5 +44,7 @@ eg:- /user/:101
  -added required , unique , lowercase , min , minlength , trim
  -Added default
  - Created a custom validate function for gender
- 
+ -Added API level validations on Patch request & SignUp POSt API
+ -Data Sanitization :- Add API validation for each field- so that my api don't get malicious data
+ -
 
