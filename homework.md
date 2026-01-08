@@ -34,4 +34,9 @@ eg:- /user/:101
 -difference between json and javascript object
 -add the express.json() middleware to my app
 -make our signup API dynamic to receive data from the end user
--
+-User.findOne() with duplicate email ids, which object will be returned???
+-performed CRUD operations
+-difference between PUT and PATCH method
+-Note :- suppose I pass any data through body in my api and i that field is not present in the schema then it will ignore that field and not update nor store the data
+
+-S02E08
