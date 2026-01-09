@@ -52,4 +52,12 @@ eg:- /user/:101
   -explore validator library function and use validtor for password , email , phone number , photourl etc.
   -Note :- NEVER TRUST req.body
 
+-S02E09
+ -validate data in SignUp API
+ -Install bcrypt package
+ -Create PasswordHash using bcypt.hash and save the user with hashed password
 
+ -During login don't do information leak , like your password is not correct , use invalid credentials
+ -Created login API
+ -compare password  and throw errors if email or password is invalid
+ 
