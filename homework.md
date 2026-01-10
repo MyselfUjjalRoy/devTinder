@@ -84,4 +84,7 @@ S02E09
 -Create authRouter , profileRouter , requestRouter
 -Import these routers in app.js
 
+-created POST / logout API
+-created PATCH /prfile/edit API
+-tested all APIS
 -
