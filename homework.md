@@ -77,7 +77,7 @@ eg:- /user/:101
 -create userSchema method to comparepassword(passwordInputByUser)
 -so that our code become modular , as we attached method to userSchema which are closely related to user , so that we don't need to explicitly write this in the api
 
-S02E09
+S02E011
 -Explored tinder APIs and grouped them
 -read documentation for express.Router
 -Create routes folder for managing auth, profile , request routers
@@ -87,4 +87,19 @@ S02E09
 -created POST / logout API
 -created PATCH /prfile/edit API
 -tested all APIS
--
+
+-S0E12
+-create connectionRequestSchema
+-Send Connection Request API
+-proper validation of data
+-think about all corner cases
+-$or query and $and query in mongoose(Read about it)
+-schema.pre("save") function
+-why we should not make lot of indexes in the db??
+-Read about indexes in mongoDB
+-advantages and disadvantages of indexes in mongoDB
+
+-concept:- schema validations 1hr 4 min
+-Error :- 1hr 12 min here i have not used the next function ,in connectionRequest.js
+
+
