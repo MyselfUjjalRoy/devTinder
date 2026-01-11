@@ -102,4 +102,11 @@ S02E011
 -concept:- schema validations 1hr 4 min
 -Error :- 1hr 12 min here i have not used the next function ,in connectionRequest.js
 
-
+-S02E13
+-Did validation of the api - /request/review/:status/:requestId
+-Thought Process - POST vs GET
+-in POST api - before storing any data in DB I need to check the request very carefully - like attacker should not give some random data , the request should be validated and sanitized
+-in GET api - we need to make sure user is authorized and only allowed and requested data in the scope should only be sent
+-Read about ref and populate in mongo
+-Create GET /user/requests/received with all the checks
+-
