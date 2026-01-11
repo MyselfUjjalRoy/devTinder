@@ -109,4 +109,17 @@ S02E011
 -in GET api - we need to make sure user is authorized and only allowed and requested data in the scope should only be sent
 -Read about ref and populate in mongo
 -Create GET /user/requests/received with all the checks
--
+
+-S02E14
+  -Logic for GET /feed API
+  -Explore conditions like $nin , $and , $ne and other query operators in mongodb
+  -Pagination
+----------------------------
+/feed?page=1&limit = 10 => 1-10 => .skip(0) & .limit(10)
+
+/feed?page=2&limit=10 => 11-20 => .skip(10) & .limit(10)
+
+/feed?page=3&limit=10 => 21-30 => .skip(20) & .limit(10)
+--------------------------
+## we can make our feed api more complicated like feed those people who share similar skills or different gender or same age group or from same clg
+## we can add here filters like , suppose the user want to see those who are very good at javascript
